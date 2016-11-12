@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="honkot.androidrwsettings">
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <!-- This is only for System Apps
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"></uses-permission>-->
 
     <application
         android:allowBackup="true"
